@@ -24,10 +24,15 @@ Explore visualizations (scatter plots and network graphs) for insights into item
 How It Works
 
 Preprocessing: Loads Excel data, replaces binary values with item names, and prepares transactions using TransactionEncoder.
+
 Apriori Algorithm: Uses mlxtend.apriori to find frequent itemsets with a minimum support threshold (0.3) and generates rules with a confidence threshold (0.6).
+
 FP-Growth Algorithm: Uses mlxtend.fpgrowth to find frequent itemsets with the same support threshold and generates rules with the same confidence threshold.
+
 Visualization:
+
 Scatter plots (support vs. confidence) for both algorithms, with lift as the color scale.
+
 Network graphs using networkx to show rule relationships for both algorithms.
 
 # ⚠️ Limitations
