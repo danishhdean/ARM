@@ -3,13 +3,13 @@
 This project implements Association Rule Mining using both the Apriori and FP-Growth algorithms in Python. It processes transaction data from an Excel dataset to identify frequent itemsets and generate association rules, visualized through scatter plots and network graphs for both algorithms.
 
 # ✨ Features
-Dual Algorithms: Implements Apriori and FP-Growth using mlxtend for mining frequent itemsets.
+**Dual Algorithms:** Implements Apriori and FP-Growth using mlxtend for mining frequent itemsets.
 
-Rule Generation: Extracts association rules with metrics like support, confidence, and lift for both algorithms.
+**Rule Generation:** Extracts association rules with metrics like support, confidence, and lift for both algorithms.
 
-Visualizations: Generates scatter plots (support vs. confidence, colored by lift) and network graphs for rule relationships, for both Apriori and FP-Growth.
+**Visualizations:** Generates scatter plots (support vs. confidence, colored by lift) and network graphs for rule relationships, for both Apriori and FP-Growth.
 
-Data Preprocessing: Converts binary transaction data into item names using pandas and TransactionEncoder.
+**Data Preprocessing:** Converts binary transaction data into item names using pandas and TransactionEncoder.
 
 # 💬 How to Use
 Load the dataset.
@@ -21,7 +21,7 @@ View frequent itemsets and rules with metrics for each algorithm.
 Explore visualizations (scatter plots and network graphs) for insights into item associations.
 
 # 🧩 Project Structure
-How It Works
+**How It Works**
 
 Preprocessing: Loads Excel data, replaces binary values with item names, and prepares transactions using TransactionEncoder.
 
@@ -29,7 +29,7 @@ Apriori Algorithm: Uses mlxtend.apriori to find frequent itemsets with a minimum
 
 FP-Growth Algorithm: Uses mlxtend.fpgrowth to find frequent itemsets with the same support threshold and generates rules with the same confidence threshold.
 
-Visualization:
+**Visualization:**
 
 Scatter plots (support vs. confidence) for both algorithms, with lift as the color scale.
 
